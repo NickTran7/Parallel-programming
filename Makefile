@@ -9,5 +9,5 @@ $(TARGET): my_program.cpp
 
 clean:
     rm -f $(TARGET)
-    
-.PHONY: all cleanmake 
+
+.PHONY: all clean
